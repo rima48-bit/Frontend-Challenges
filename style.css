@@ -210,4 +210,30 @@ body{
     background-color: hsl(214 37% 4%);
     padding: 10px;
     gap: 8px;
+    box-sizing: border-box;
+    position: relative;
+}
+.password-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-input-wrapper input {
+    width: 100%;
+    padding: 10px 35px 10px 10px;
+}
+
+.eye-container {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.eye-container img {
+    width: 16px;
+    height: 16px;
 }
